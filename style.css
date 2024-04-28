@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* arczen, thank you */
+:root {
+    --text-color-logo: rgb(186, 185, 212);
+	--text-color-1: rgb(146, 144, 195);
+    --text-color-hover: rgb(176, 205, 248);
+	--bg-color-1: rgb(7, 15, 43);
+	--bg-color-2: rgb(23, 22, 68);
+	--bg-color-3: rgb(83, 92, 145);
+
+	--font: "Open Sans"
+}
+
+
+
+body {
+
+    background-color: var(--bg-color-1);
+    margin: 0px;
+}
+
+h1 {
+
+    color: var(--text-color-1);
+    font-family: var(--font);
+    
+}
+
+p {
+    color: var(--text-color-1);
+    font-family: var(--font);
+}
+
+ul {
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--bg-color-2);
+    border-bottom: 2px dashed var(--bg-color-3);
+
+}
+
+li a:not(.logo) {
+    display: inline-block;
+    color: var(--text-color-1);
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-family: var(--font);
+    font-size: 15px;
+}
+
+li a:hover{
+
+    color: var(--text-color-hover);
+
+}
+
+.logo {
+
+    display: block;
+    color: var(--text-color-logo);
+    padding: 9px;
+    text-decoration: none;
+    font-size: 30px;
+
+}
+
+li {
+    display: inline;
+    float: right;
+}
+
+li:first-child {
+
+    float: left;
+    margin: 0 !important;
+    font-family: var(--font);
+
+}
+
+.content {
+
+    padding-top: 75px;    
+    
+}
+
+.content-title {
+
+    text-align: center;
+
+}
+
+.content-description {
+
+    text-align: center;
+
+}
+
+#discord {
+
+    color: rgb(79, 76, 161)
+
+}
