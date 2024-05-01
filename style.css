@@ -115,33 +115,3 @@ li:first-child {
     color: rgb(79, 76, 161)
 
 }
-
-.section {
-
-    background-color: var(--bg-color-2);
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
-    width: 60%;
-    margin: 10rem auto 0 auto;
-
-}
-
-.section h1 {
-
-    margin: 0;
-
-}
-
-.section img {
-
-    height: 250px;
-    padding-left: 30px;
-
-}
-
-.section img:hover {
-
-    animation: justmove 0.5s;
-    animation-fill-mode: forwards;
-}
